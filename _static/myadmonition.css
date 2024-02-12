@@ -1,0 +1,141 @@
+/*********************************************
+* Variables *
+*********************************************/
+:root {
+  --objped-background-color: rgba(153,255,204,.3); /* Freezy Wind Color */
+  --objped-border-color: rgba(77,255,166,1); /* 160,86,255 ou 204,153,255 */
+  --formule-background-color: rgba(160,86,255,.3);
+  --formule-border-color: rgba(160,86,255,1);
+  --admonition-youtube-background-color: rgba(99,0,0,1); /* hsl(0, 99%, 18%) */
+  --admonition-youtube-border-color: rgba(255,0,0,1); /* YouTube red */
+  --admonition-youtube-title-color: white;
+  --surcalculatrice-background-color: rgba(255,204,153,.3); /* Pastel Peach Orange Color */
+  --surcalculatrice-border-color: rgba(255,166,77,1);
+  --weblink-background-color: rgba(246,119,228,.1);
+  --weblink-border-color: rgba(246,119,228,1);
+  --simulation-background-color: rgba(106, 206, 245,.1); /* PhET yellow rgba(254,246,5,.3) */
+  --simulation-border-color: rgba(106, 206, 245,1); /* PhET blue  */
+  --simulation-title-color: rgba(106, 206, 245,1);
+  --astuce-background-color: rgba(255,204,153,.3);; /* Pastel Peach Orange Color */
+  --astuce-border-color: rgba(255,166,77,1);
+}
+/*********************************************
+* commandes:
+  Taille titre: div.admonition.titlesize > .admonition-title {
+  font-size: 15px;
+}
+*********************************************/
+
+/*********************************************
+* Objectifs Pédagogiques *
+*********************************************/
+div.admonition.objped {
+  border-color: var(--objped-border-color);
+}
+div.admonition.objped > .admonition-title {
+  background-color: var(--objped-background-color);
+}
+div.admonition.objped > .admonition-title:after {
+  color: var(--objped-border-color);
+  content: "\f501"; /* fa-solid user-graduate (crosshairs: f05b; clipboard: f328) */
+}
+
+
+/*********************************************
+* Formules *
+*********************************************/
+div.admonition.formule {
+  border-color: var(--formule-border-color);
+}
+div.admonition.formule > .admonition-title {
+  background-color: var(--formule-background-color);
+}
+div.admonition.formule > .admonition-title:after {
+  color: var(--formule-border-color);
+  content: "\f0eb"; /* fa-solid lightbulb */
+}
+
+
+
+/*********************************************
+* YouTube *
+*********************************************/
+div.admonition.admonition-youtube {
+  border-color: var(--admonition-youtube-border-color);
+}
+div.admonition.admonition-youtube > .admonition-title {
+  background-color: var(--admonition-youtube-background-color);
+  color: var(--admonition-youtube-title-color);
+}
+div.admonition.admonition-youtube > .admonition-title:after {
+  color: var(--admonition-youtube-border-color);
+  content: "\f26c"; /* fa-solid fa-youtube (-play f26c) */
+}
+
+
+/*********************************************
+* Sur la Calculatrice *
+*********************************************/
+div.admonition.surcalculatrice {
+  border-color: var(--surcalculatrice-border-color);
+}
+div.admonition.surcalculatrice > .admonition-title {
+  background-color: var(--surcalculatrice-background-color);
+}
+div.admonition.surcalculatrice > .admonition-title:after {
+  color: var(--surcalculatrice-border-color);
+  content: "\f1ec"; /* fa-solid fa-calculator */
+}
+/*********************************************
+* Calculatrice - Icon Only *
+*********************************************/
+div.admonition.admonition-calcicon > .admonition-title:after {
+  content: "\f1ec"; /* fa-solid fa-calculator */
+}
+
+
+/*********************************************
+* Liens Internet *
+*********************************************/
+div.admonition.weblink {
+  border-color: var(--weblink-border-color);
+}
+div.admonition.weblink > .admonition-title {
+  background-color: var(--weblink-background-color);
+}
+div.admonition.weblink > .admonition-title:after {
+  color: var(--weblink-border-color);
+  content: "\f0ac"; /* fa-solid fa-globe */
+}
+
+
+/*********************************************
+* Simulation PhET *
+*********************************************/
+div.admonition.simulation {
+  border-color: var(--simulation-border-color);
+}
+div.admonition.simulation > .admonition-title {
+    color: var(--simulation-title-color);
+    background-color: var(--simulation-background-color);
+}
+div.admonition.simulation > .admonition-title:after {
+  color: var(--simulation-border-color);
+  content: "\f12e"; /* fa-solid puzzle-piece (gamepad f11b) */ 
+}
+
+
+/*********************************************
+* Astuce *
+*********************************************/
+div.admonition.astuce {
+  border-color: var(--astuce-border-color);
+}
+div.admonition.astuce > .admonition-title {
+    color: var(--astuce-title-color);
+    background-color: var(--astuce-background-color);
+}
+div.admonition.astuce > .admonition-title:after {
+  color: var(--astuce-border-color);
+  content: "\f08d"; /* fa-solid thumbtack */ 
+}

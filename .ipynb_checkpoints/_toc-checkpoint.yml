@@ -1,0 +1,18 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+  - caption: 
+#    numbered: True  # Only applies to chapters in Part 1.
+    chapters:
+    - file: cheet_sheet/introMyST # Cheat Sheets 
+      sections:
+      - file: cheet_sheet/MyST_Cheat # MySt Cheat Sheet
+  - caption: 
+    chapters:
+    - file: cheet_sheet/introGitHub # GitHub 
+      sections:
+      - file: cheet_sheet/GitHub_repo # GitHub repository
+      - file: cheet_sheet/GitHub_Pages #GitHub pages
