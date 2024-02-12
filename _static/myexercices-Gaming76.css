@@ -1,0 +1,125 @@
+/*********************************************
+* Variables *
+*********************************************/
+:root {
+  --exohome-title-color: rgba(142,181,255,.1);
+  --exohome-border-color: rgba(142,181,255,1);
+  --exohomesol-title-color: rgba(142,181,255,.04);
+  --exohomesol-border-color: rgba(142,181,255,.4);
+  --question-title-color: rgba(255,160,142,.1);
+  --question-border-color: rgba(255,160,142,1);
+  --questionsol-title-color: rgba(255,160,142,.04);
+  --questionsol-border-color: rgba(255,160,142,.4);
+  --exores-title-color: rgba(119,165,246,.1);
+  --exores-border-color: rgba(119,165,246,1);
+}
+
+/*********************************************
+* Exercise à faire *
+*********************************************/
+div.admonition.exohome {
+  border-color: var(--exohome-border-color);
+}
+div.admonition.exohome > .admonition-title {
+  background-color: var(--exohome-title-color);
+}
+div.admonition.exohome > .admonition-title:after {
+  color: var(--exohome-border-color);
+  content: "\f303"; /* fa-solid fa-pen (\f044 fa-pen-to-square) */
+}
+/*********************************************
+* Solution - Exercise à faire *
+*********************************************/
+div.admonition.exohomesol {
+  border-color: var(--exohomesol-border-color);
+}
+div.admonition.exohomesol > .admonition-title {
+  background-color: var(--exohomesol-title-color);
+}
+div.admonition.exohomesol > .admonition-title:after {
+  color: var(--exohomesol-border-color);
+  content: "\f00c"; /* fa-solid check  */
+}
+
+
+/*********************************************
+* Questions conceptuelles *
+*********************************************/
+div.admonition.question {
+  border-color: var(--question-border-color);
+}
+div.admonition.question > .admonition-title {
+  background-color: var(--question-title-color);
+}
+div.admonition.question > .admonition-title:after {
+  color: var(--question-border-color);
+  content: "\f4ad"; /* fa-solid fa-comment-dots  */
+}
+/*********************************************
+* Solution - Questions conceptuelles *
+*********************************************/
+div.admonition.questionsol {
+  border-color: var(--questionsol-border-color);
+}
+div.admonition.questionsol > .admonition-title {
+  background-color: var(--questionsol-title-color);
+}
+div.admonition.questionsol > .admonition-title:after {
+  color: var(--questionsol-border-color);
+  content: "\f00c"; /* fa-solid check  */
+}
+
+
+/*********************************************
+* Exercise résolu *
+*********************************************/
+div.admonition.exores {
+  border-color: var(--exores-border-color);
+}
+div.admonition.exores > .admonition-title {
+  background-color: var(--exores-title-color);
+}
+div.admonition.exores > .admonition-title:after {
+  color: var(--exores-border-color);
+  content: "\f0a1"; /* fa-solid bullhorn  */
+}
+/*********************************************
+* Stratégie - Exercise résolu *
+*********************************************/
+div.admonition.strategie {
+  border-color: rgba(119,246,201,1);
+}
+div.admonition.strategie > .admonition-title {
+  background-color: rgba(119,246,201,.1);
+}
+div.admonition.strategie > .admonition-title:after {
+  color: rgba(119,246,201,1);
+  content: "\f085"; /* fa-solid gears */
+}
+/*********************************************
+* Solution - Exercise résolu *
+*********************************************/
+div.admonition.solution {
+  border-color: rgba(119,228,246,1);
+}
+div.admonition.solution > .admonition-title {
+  background-color: rgba(119,228,246,.1);
+}
+div.admonition.solution > .admonition-title:after {
+  color: rgba(119,228,246,1);
+  content: "\f5ac"; /* fa-solid pen-fancy */
+}
+/*********************************************
+* Discussion - Exercise résolu *
+*********************************************/
+div.admonition.discussion {
+  border-color: rgba(110,181,255,1);
+}
+div.admonition.discussion > .admonition-title {
+  background-color: rgba(110,181,255,.1);
+}
+div.admonition.discussion > .admonition-title:after {
+  color: rgba(110,181,255,1);
+  content: "\f086"; /* fa-solid comment */
+}
+
