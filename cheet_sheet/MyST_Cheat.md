@@ -411,7 +411,7 @@ Dropdown content
 (chap:MySTfigures)=
 ## Figures
 :::{figure} figures/TestPNG.png
-:name: TestPNG
+:name: Fig:TestPNG
 :align: center
 :width: 50%
 *Légende*
@@ -430,25 +430,25 @@ Avec la référence : {numref}`TestPNG` (attention donne Fig. en HTML) ou avec u
 :::::{tab-set}
 ::::{tab-item} Référence 1
 ```none
-{numref}`TestPNG`
+{numref}`Fig:TestPNG`
 ```
 ::::
 
 ::::{tab-item} Référence 2
 ```none
-{numref}`Image %s <TestPNG>
+{numref}`Image %s <Fig:TestPNG>
 ```
 ::::
 
 ::::{tab-item} Référence 3
 ```none
-{numref}`Image %sa <TestPNG>`
+{numref}`Image %sa <Fig:TestPNG>`
 ```
 ::::
 
 ::::{tab-item} Référence 4
 ```none
-{ref}`magnifique image des carré <TestPNG>`
+{ref}`magnifique image des carré <Fig:TestPNG>`
 ```
 ::::
 :::::
