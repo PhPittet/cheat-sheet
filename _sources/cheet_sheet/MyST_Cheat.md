@@ -2,8 +2,7 @@
 
 (chap:MySTnotesperso)=
 ## Notes Personalisées (Admonitions)
-### Pour le corps de texte
-#### Formule
+### Formule
 ::::{admonition} Titre_Formule
 :class: formule
 Formule
@@ -16,7 +15,7 @@ Formule
 ::::
 ````
 
-#### Sur la calculatrice
+### Sur la calculatrice
 :::{admonition} Sur la calculatrice
 :class: surcalculatrice
 Info sur les calculatrices (class: surcalculatrice)
@@ -29,7 +28,7 @@ Info sur les calculatrices (class: surcalculatrice)
 :::
 ````
 
-#### Astuce
+### Astuce
 :::{admonition} Astuce
 :class: astuce
 et_trucs
@@ -42,7 +41,7 @@ et_trucs
 :::
 ````
 
-#### Objectif pédagogique
+### Objectif pédagogique
 :::{admonition} Objectifs d'apprentissage
 :class: objped
 À la fin de cette section, vous pourrez :
@@ -61,7 +60,7 @@ et_trucs
 :::
 ````
 
-#### Plus d'infos
+### Plus d'infos
 :::{admonition} Pour plus d'informations
 :class: dropdown weblink
 Quelques liens utiles sur le même sujet :
@@ -78,7 +77,7 @@ Quelques liens utiles sur le même sujet :
 :::
 ````
 
-#### YouTube
+### YouTube
 :::{admonition} YouTube
 :class: dropdown admonition-youtube
 Quelques liens de vidéo utiles sur le même sujet :
@@ -107,7 +106,7 @@ Quelques liens de vidéo utiles sur le même sujet :
 :::
 ````
 
-#### Simulation PhET
+### Simulation PhET
 :::{admonition} P*h*ET simulation
 :class: dropdown simulation
 **Titre_de_la_simulation**
@@ -129,8 +128,8 @@ Quelques liens de vidéo utiles sur le même sujet :
 ````
 
 (chap:MySTexo)=
-### Pour les exercices & questions
-#### Exercices
+
+### Exercices
 ::::{admonition} Exercice N
 :class: exohome
 Exercice
@@ -151,7 +150,7 @@ Solution
 ::::
 ````
 
-#### Questions conceptuelles
+### Questions conceptuelles
 ::::{admonition} Questions N
 :class: question
 Question
@@ -254,9 +253,7 @@ Discussion
 ```
 
 
-
-### Exemple avec solution
-#### Simple Solution
+### Simple Solution
 ::::{admonition} Exemple N
 :class: exores
 Exercice
@@ -277,7 +274,7 @@ Solution
 ::::
 ````
 
-#### Avec stratégie
+### Avec stratégie
 :::::{admonition} Exemple_résolution
 :class: exores
 Exercice
@@ -414,7 +411,7 @@ Dropdown content
 (chap:MySTfigures)=
 ## Figures
 :::{figure} figures/TestPNG.png
-:name: TestPNG
+:name: Fig:TestPNG
 :align: center
 :width: 50%
 *Légende*
@@ -433,25 +430,25 @@ Avec la référence : {numref}`TestPNG` (attention donne Fig. en HTML) ou avec u
 :::::{tab-set}
 ::::{tab-item} Référence 1
 ```none
-{numref}`TestPNG`
+{numref}`Fig:TestPNG`
 ```
 ::::
 
 ::::{tab-item} Référence 2
 ```none
-{numref}`Image %s <TestPNG>
+{numref}`Image %s <Fig:TestPNG>
 ```
 ::::
 
 ::::{tab-item} Référence 3
 ```none
-{numref}`Image %sa <TestPNG>`
+{numref}`Image %sa <Fig:TestPNG>`
 ```
 ::::
 
 ::::{tab-item} Référence 4
 ```none
-{ref}`magnifique image des carré <TestPNG>`
+{ref}`magnifique image des carré <Fig:TestPNG>`
 ```
 ::::
 :::::
@@ -559,6 +556,37 @@ Term 3
 : > A quote\
     on two line too
 : A final definition, that can even include images:
+
+
+:param arg1: A description of arg1
+:param arg2: A longer description,
+    with multiple lines.
+
+    - And bullet points
+:return: A description of the return value
+
+:a): test3
+
+
+blalbla, fin de la question.\
+.
+: a) test
+
+: b) test2
+
+1. Test
+2. Test2
+
+
+a.  test
+* a) test
+- b) test2
+
+a)
+: test
+
+b)
+: test2S
 
 
 (chap:MySTreference)=
