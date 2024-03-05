@@ -418,15 +418,15 @@ Dropdown content
 :::
 
 ```none
-:::{figure} figures/TestPNG.png
-:name: TestPNG
+:::{figure} figures/TestPNG.jpg
+:name: Fig:TestPNG
 :align: center
 :width: 50%
 *Légende*
 :::
 ````
 
-Avec la référence : {numref}`TestPNG` (attention donne Fig. en HTML) ou avec un nom personnalisé {numref}`Image %s <TestPNG>` , ou {numref}`Image %sa <TestPNG>`s'il y a plusieurs sous-image. On peut aussi mettre un titre totalement personnalisé {ref}`magnifique image des carré <TestPNG>`
+Avec la référence : {numref}`Fig:TestPNG` (attention donne Fig. en HTML) ou avec un nom personnalisé {numref}`Image %s <Fig:TestPNG>` , ou {numref}`Image %sa <Fig:TestPNG>`s'il y a plusieurs sous-image. On peut aussi mettre un titre totalement personnalisé {ref}`magnifique image des carré <Fig:TestPNG>`
 :::::{tab-set}
 ::::{tab-item} Référence 1
 ```none
