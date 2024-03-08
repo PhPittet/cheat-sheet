@@ -7,9 +7,9 @@ parts:
   - caption: 
 #    numbered: True  # Only applies to chapters in Part 1.
     chapters:
-    - file: cheet_sheet/introMyST # Cheat Sheets 
+    - file: cheet_sheet/introMarkdown # Cheat Sheets 
       sections:
-      - file: cheet_sheet/MyST_Cheat # MySt Cheat Sheet
+      - file: cheet_sheet/Markdown_CheatSheet # Markdown Cheat Sheet
   - caption: 
     chapters:
     - file: cheet_sheet/introGitHub # GitHub 

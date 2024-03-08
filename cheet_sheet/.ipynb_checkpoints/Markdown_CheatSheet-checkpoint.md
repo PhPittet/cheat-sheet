@@ -1,4 +1,4 @@
-# MyST Cheat sheet
+# Markdown Cheat sheet
 
 (chap:MySTnotesperso)=
 ## Notes Personalisées (Admonitions)
