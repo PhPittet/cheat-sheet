@@ -6,7 +6,7 @@
 
 TO Do....
 
-Cloner le repo GitHub localement sur l'ordi avec GitHub Desktop
+Cloner le nouveau repo GitHub localement sur l'ordi avec GitHub Desktop
 
 
 ### Mise à jour du notebook et de l'url 
@@ -42,14 +42,21 @@ Utiliser `ghp-import` pour mettre à jour la page web :
       ```none
       conda activate jupyterlab4
       ```
-9. Aller dans le dossier racine du projet `...\GitHub\physique-gybe` (celui qui contient le `dossier _build/html`
+9. Aller dans le dossier racine du projet `...\GitHub\NOM_DU_REPO` (celui qui contient le `dossier _build/html`\
+    Par exemple :
       ```none
       cd OneDrive - Education Vaud\GitHub\physique-gybe
       ```
-10. Entrer la commande suivante :
+      ```none
+      cd OneDrive - Education Vaud\GitHub\physique-CSA-gybe
+      ```
+      ```none
+      cd OneDrive - Education Vaud\GitHub\cheat-sheets
+      ```
+11. Entrer la commande suivante pour construire le site (html) :
       ```
       ghp-import -n -p -f _build/html
       ```
-11. Croisez les doigts pour que ça marche
+12. Croisez les doigts pour que ça marche
 
 
