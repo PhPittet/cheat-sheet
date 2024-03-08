@@ -1,23 +1,4 @@
 # GitHub Pages
-## Welcome to my GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/PhPittet/phpittet.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing.
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PhPittet/phpittet.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
 ## Petit guide pour mettre son fichier Jupyter Notebook en ligne sur GitHub Pages
 
@@ -25,7 +6,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 TO Do....
 
-Cloner le repo GitHub localement sur l'ordi avec GitHub Desktop
+Cloner le nouveau repo GitHub localement sur l'ordi avec GitHub Desktop
 
 
 ### Mise à jour du notebook et de l'url 
@@ -61,14 +42,21 @@ Utiliser `ghp-import` pour mettre à jour la page web :
       ```none
       conda activate jupyterlab4
       ```
-9. Aller dans le dossier racine du projet `...\GitHub\physique-gybe` (celui qui contient le `dossier _build/html`
+9. Aller dans le dossier racine du projet `...\GitHub\NOM_DU_REPO` (celui qui contient le `dossier _build/html`\
+    Par exemple :
       ```none
       cd OneDrive - Education Vaud\GitHub\physique-gybe
       ```
-10. Entrer la commande suivante :
+      ```none
+      cd OneDrive - Education Vaud\GitHub\physique-CSA-gybe
+      ```
+      ```none
+      cd OneDrive - Education Vaud\GitHub\cheat-sheets
+      ```
+11. Entrer la commande suivante pour construire le site (html) :
       ```
       ghp-import -n -p -f _build/html
       ```
-11. Croisez les doigts pour que ça marche
+12. Croisez les doigts pour que ça marche
 
 
